@@ -1,0 +1,7 @@
+L:\GitWorkf\employees\Employees\bin\Debug\Employees.exe.config
+L:\GitWorkf\employees\Employees\bin\Debug\Employees.exe
+L:\GitWorkf\employees\Employees\bin\Debug\Employees.pdb
+L:\GitWorkf\employees\Employees\obj\Debug\Employees.csproj.AssemblyReference.cache
+L:\GitWorkf\employees\Employees\obj\Debug\Employees.csproj.CoreCompileInputs.cache
+L:\GitWorkf\employees\Employees\obj\Debug\Employees.exe
+L:\GitWorkf\employees\Employees\obj\Debug\Employees.pdb
