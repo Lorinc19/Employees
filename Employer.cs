@@ -12,5 +12,15 @@ namespace Employees
         public string Name { get; set; }
         public int Age { get; set; }
         public int Salary { get; set; }
+
+        public Employer(string row)
+        {
+            string[] darab = row.Split(';');
+
+            Id = int.Parse(darab[0]);
+            Name = darab[1];
+            Age = int.Parse(darab[2]);
+            Salary = int.Parse(darab[3]);
+        }
     }
 }
