@@ -20,6 +20,21 @@ namespace Employees
             }
         }
 
+        public static void feladat4()
+        {
+            int max = employers[0].Salary;
+            int id = 0;
+            foreach (var item in employers) 
+            {
+                if (item.Salary> max)
+                {
+                    max = item.Salary;
+                    id= item.Id;
+                }    
+            }
+            Console.WriteLine($"a LEGJOBBASN KERESŐ DOLGOZÓ ID:{id}, NEVE: {employers[id-1].Name}");
+        }
+
         static void Main(string[] args)
         {
             StreamReader sr = new StreamReader("tulajdonsagok_100sor.txt");
@@ -33,6 +48,7 @@ namespace Employees
             }
 
             feladat3();
+            feladat4();
 
         }
     }
