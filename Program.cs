@@ -16,9 +16,13 @@ namespace Employees
         {
             StreamReader sr = new StreamReader("tulajdonsagok_100sor.txt");
 
-            Employer emp =new Employer(sr.ReadLine());
+            
 
-            Console.WriteLine(emp.Name);
+            for (int i = 0; i < 100; i++)
+            {
+                Employer emp = new Employer(sr.ReadLine());
+                employers.Add(emp);
+            }
         }
     }
 }
