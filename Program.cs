@@ -35,6 +35,17 @@ namespace Employees
             Console.WriteLine($"a LEGJOBBASN KERESŐ DOLGOZÓ ID:{id}, NEVE: {employers[id-1].Name}");
         }
 
+        public static void feladat5()
+        {
+            foreach (var item in employers)
+            {
+                if (item.Age == 55)
+                {
+                    Console.WriteLine($"Név: {item.Name} Kor: {item.Age}");
+                }
+            }
+        }
+
         static void Main(string[] args)
         {
             StreamReader sr = new StreamReader("tulajdonsagok_100sor.txt");
@@ -49,6 +60,7 @@ namespace Employees
 
             feladat3();
             feladat4();
+            feladat5();
 
         }
     }
